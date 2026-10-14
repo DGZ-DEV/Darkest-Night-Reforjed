@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DarknessBaseChanceLabel>Base chance of the Darkest Night (default 3.5)</DarknessBaseChanceLabel>
+  <DarknessMinRefireDaysLabel>Minimum days before the Darkest Night can return (default 45)</DarknessMinRefireDaysLabel>
+  <DarknessEarliestDayLabel>Earliest day the Darkest Night can strike (default 60)</DarknessEarliestDayLabel>
+  <DarknessAllowSunlightLabel>Daylight burns the darkspawn away (Permanent Darkness scenario)</DarknessAllowSunlightLabel>
+  <RemoveDarknessNarratorLabel>Mute the narrator sounds</RemoveDarknessNarratorLabel>
+  <DarknessIgnoreDownedLabel>Darkspawn ignore downed pawns</DarknessIgnoreDownedLabel>
+</LanguageData>

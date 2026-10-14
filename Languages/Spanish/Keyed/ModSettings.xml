@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DarknessBaseChanceLabel>Probabilidad base de la noche más oscura (por defecto 3.5)</DarknessBaseChanceLabel>
+  <DarknessMinRefireDaysLabel>Días mínimos antes de que pueda repetirse (por defecto 45)</DarknessMinRefireDaysLabel>
+  <DarknessEarliestDayLabel>Primer día en que puede aparecer (por defecto 60)</DarknessEarliestDayLabel>
+  <DarknessAllowSunlightLabel>La luz del día quema a los engendros (escenario de oscuridad permanente)</DarknessAllowSunlightLabel>
+  <RemoveDarknessNarratorLabel>Silenciar los sonidos del narrador</RemoveDarknessNarratorLabel>
+  <DarknessIgnoreDownedLabel>Los engendros ignoran a los derribados</DarknessIgnoreDownedLabel>
+</LanguageData>

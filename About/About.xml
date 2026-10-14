@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Darkest Night Reforjed</name>
+  <author>NilchEi / Skyarkhangel (port Reforjed DGZ)</author>
+  <packageId>dgz.darkestnightreforjed</packageId>
+  <description>Port a RimWorld 1.6 del evento Darkest Night sin Harmony. Usa Rework Reforjed para el tinte del cielo. Incluye la faccion Darkspawn, la condicion Darkness permanente y temporal, el incidente, los trabajos de caza y el escenario.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>dgz.rework</packageId>
+      <displayName>Rework Reforjed</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>dgz.rework</li>
+  </loadAfter>
+</ModMetaData>

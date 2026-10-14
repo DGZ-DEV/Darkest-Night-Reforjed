@@ -1,0 +1,27 @@
+<Defs>
+
+  <GameConditionDef>
+    <defName>Darkness</defName>
+    <conditionClass>SK.Events.GameCondition_Darkness</conditionClass>
+    <label>Darkness</label>
+    <description>An unusual dark and cold... night.</description>
+    <endMessage>The darkness is gone</endMessage>
+    <exclusiveConditions>
+      <li>Eclipse</li>
+    </exclusiveConditions>
+  </GameConditionDef>
+
+  <GameConditionDef>
+    <defName>DarknessPermanent</defName>
+    <conditionClass>SK.Events.GameCondition_DarknessPermanent</conditionClass>
+    <label>Permanent Darkness</label>
+    <description>An unusual dark and cold night, lethal to all intelligent beings within.</description>
+    <endMessage>The darkness is gone</endMessage>
+    <exclusiveConditions>
+      <li>Eclipse</li>
+      <li>Darkness</li>
+    </exclusiveConditions>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+
+</Defs>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LabelBV>Darkest Night</LabelBV>
+  <DescBV>As you watch the approaching darkness you know death has come to the Rim.
+You turn to shout to the others... "RUN!" but the darkness is already upon you.
+Only blackness and your own screams remain. You cannot escape this fate.
+The last thing you feel before you fall into the abyss is your flesh being torn from your bones.
+The Darkest Night has arrived.
+Stay near light sources. The dark takes the unlit.</DescBV>
+  <DarknessComesA>Darkness will swallow this land in 60.</DarknessComesA>
+  <DarknessComesB>Darkness will swallow this land in 30.</DarknessComesB>
+  <DarknessComesC>Darkness will swallow this land in 15.</DarknessComesC>
+  <DarknessComesD>Darkness will swallow this land in 5.</DarknessComesD>
+  <DarknessComesE>Darkness will swallow this land in 4.</DarknessComesE>
+  <DarknessComesF>Darkness will swallow this land in 3.</DarknessComesF>
+  <DarknessComesG>Darkness will swallow this land in 2.</DarknessComesG>
+  <DarknessComesH>Darkness will swallow this land in 1.</DarknessComesH>
+  <DarknessComes>The Darkness has arrived!</DarknessComes>
+  <DarknessComesSunlight>The sunlight is fading.</DarknessComesSunlight>
+  <OmniousDarkLabel>Ominous Darkness</OmniousDarkLabel>
+  <OmniousDarkDesc>The darkness has moved on, but you are not safe from its path...\n\nIt will meet you again, soon...</OmniousDarkDesc>
+  <TakenDC>The shadow has taken </TakenDC>
+  <IntoDS> into the darkness.</IntoDS>
+</LanguageData>

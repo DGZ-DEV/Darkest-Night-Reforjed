@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef>
+    <defName>PermanentDarkness</defName>
+    <label>Permanent Darkness</label>
+    <description>The man has believed themselves to be apex of the universe, and our ships probed the voids of space to satisfy our innate desire for expansion. With confidence of oblivious tick, we have urbanized this derelict planet and prospered... then from the darkness came the irrationality manifest, incomprehensible masters where only malice can be understood using our perception of reality.\n\nThe ruin is imminent. Dance amongst the transient shadows, for light has been lost and Darkness is your destination.\n\nNote: This is example permanent darkness scenario with recommended amount of resources for viable playthrough. Option to allow daylight can be toggled on mod settings for easier scenario.</description>
+    <scenario>
+      <summary>Sole survivor, left with sufficient resources, must escape the planet under anomalous darkness.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>PlayerColony</factionDef>
+      </playerFaction>
+      <surfaceLayer>
+        <def>SurfaceLayerFixed</def>
+        <tag>Surface</tag>
+        <layer>Surface</layer>
+        <settingsDef>Surface</settingsDef>
+        <hide>true</hide>
+        <connections>
+          <Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+            <zoomMode>ZoomOut</zoomMode>
+          </Orbit>
+        </connections>
+      </surfaceLayer>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+  				<def>ConfigPage_ConfigureStartingPawns</def>
+  				<pawnCount>1</pawnCount>
+  				<pawnChoiceCount>1</pawnChoiceCount>
+  			</li>
+  			<li Class="ScenPart_PlayerPawnsArriveMethod">
+  				<def>PlayerPawnsArriveMethod</def>
+  			</li>
+  			<li Class="ScenPart_StartingThing_Defined">
+  				<def>StartingThing_Defined</def>
+  				<thingDef>WoodLog</thingDef>
+  				<count>300</count>
+  			</li>
+  			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+  				<def>ScatterThingsNearPlayerStart</def>
+  				<thingDef>Steel</thingDef>
+  				<count>1000</count>
+  			</li>
+  			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+  				<def>ScatterThingsNearPlayerStart</def>
+  				<thingDef>ComponentIndustrial</thingDef>
+  				<count>30</count>
+  			</li>
+  			<li Class="ScenPart_PermaGameCondition">
+  				<def>PermanentGameCondition</def>
+  				<gameCondition>DarknessPermanent</gameCondition>
+  			</li>
+  			<li Class="ScenPart_DisableIncident">
+  				<def>DisableIncident</def>
+  				<incident>SolarFlare</incident>
+  			</li>
+  			<li Class="ScenPart_DisableIncident">
+  				<def>DisableIncident</def>
+  				<incident>Eclipse</incident>
+  			</li>
+  			<li Class="ScenPart_StartingThing_Defined">
+  				<def>StartingThing_Defined</def>
+  				<thingDef>TorchLamp</thingDef>
+  			</li>
+  			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+  				<def>ScatterThingsNearPlayerStart</def>
+  				<thingDef>TorchLamp</thingDef>
+  				<count>12</count>
+  			</li>
+  			<li Class="ScenPart_StartingThing_Defined">
+  				<def>StartingThing_Defined</def>
+  				<thingDef>MealSurvivalPack</thingDef>
+  				<count>30</count>
+  			</li>
+  			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+  				<def>ScatterThingsNearPlayerStart</def>
+  				<thingDef>MedicineIndustrial</thingDef>
+  				<count>30</count>
+  			</li>
+  			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+  				<def>ScatterThingsNearPlayerStart</def>
+  				<thingDef>AIPersonaCore</thingDef>
+  			</li>
+  			<li Class="ScenPart_StartingResearch">
+  				<def>StartingResearch</def>
+  				<project>Batteries</project>
+  			</li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+
+
+</Defs>

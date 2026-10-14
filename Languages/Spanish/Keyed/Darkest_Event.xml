@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LabelBV>La noche más oscura</LabelBV>
+  <DescBV>Mientras observas cómo se acerca la oscuridad sabes que la muerte ha llegado al Rim.
+Te giras para gritar a los demás... "¡CORRED!" pero la oscuridad ya está sobre ti.
+Solo quedan la negrura y tus propios gritos. No puedes escapar de este destino.
+Lo último que sientes antes de caer al abismo es tu carne arrancada de los huesos.
+La noche más oscura ha llegado.
+Quédate cerca de la luz. La oscuridad se lleva a quien queda a oscuras.</DescBV>
+  <DarknessComesA>La oscuridad engullirá esta tierra en 60.</DarknessComesA>
+  <DarknessComesB>La oscuridad engullirá esta tierra en 30.</DarknessComesB>
+  <DarknessComesC>La oscuridad engullirá esta tierra en 15.</DarknessComesC>
+  <DarknessComesD>La oscuridad engullirá esta tierra en 5.</DarknessComesD>
+  <DarknessComesE>La oscuridad engullirá esta tierra en 4.</DarknessComesE>
+  <DarknessComesF>La oscuridad engullirá esta tierra en 3.</DarknessComesF>
+  <DarknessComesG>La oscuridad engullirá esta tierra en 2.</DarknessComesG>
+  <DarknessComesH>La oscuridad engullirá esta tierra en 1.</DarknessComesH>
+  <DarknessComes>¡La oscuridad ha llegado!</DarknessComes>
+  <DarknessComesSunlight>La luz del sol se está apagando.</DarknessComesSunlight>
+  <OmniousDarkLabel>Oscuridad ominosa</OmniousDarkLabel>
+  <OmniousDarkDesc>La oscuridad se ha retirado, pero no estás a salvo de su camino...\n\nVolverá a cruzarse contigo, pronto...</OmniousDarkDesc>
+  <TakenDC>La sombra se ha llevado a </TakenDC>
+  <IntoDS> a la oscuridad.</IntoDS>
+</LanguageData>
